@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="174dp"
+    android:background="@color/problu"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:background="@drawable/shape"
+        android:baselineAligned="false"
+        app:srcCompat="@drawable/prof" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:background="@color/problu"
+        android:textColor="@color/colorBackground"
+        android:text="  Alt Seçim Paneli  " />
+
+</LinearLayout>

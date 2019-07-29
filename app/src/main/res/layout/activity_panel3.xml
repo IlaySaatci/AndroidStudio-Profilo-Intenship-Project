@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.attempt.panel3"
+    android:background="@color/colorBackground">
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İletişim Bilgilerimz"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:textStyle="bold"
+
+        />
+
+    <ImageView
+        android:id="@+id/imagephone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_place_black_24dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bosna Bulvarı Profilo Plaza No:148
+Çengelköy 34688 Üsküdar / İstanbul"
+        android:layout_marginTop="179sp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#4A4D4D"/>
+
+
+
+
+    <ImageView
+
+        android:id="@+id/image4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     android:layout_marginTop="225dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_call_black_24dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tel : +90 (216) 461 31 10"
+        android:layout_marginTop="228sp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#4A4D4D"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="10sp"
+        android:textColor="#3F4040"
+        android:text="   Yazılı olarak bizimle iletişime geçmek
+için yanda yer alan iletişim formunu doldurabilirsiniz.
+İletişim bilgilerinizi bıraktığınız takdirde size konu ile alakalı
+geri dönüş yapabiliriz. Göstermiş olduğunuz ilgiye şimdiden teşekkür ederiz." />
+
+
+
+    <ImageView
+
+        android:id="@+id/image5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="263dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_call_black_24dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faks : +90 (216) 461 31 80"
+        android:layout_marginTop="265sp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#4A4D4D"/>
+
+
+
+
+    <ImageView
+
+        android:id="@+id/image6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="302dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_email_black_24dp" />
+
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" info@edata.com.tr"
+        android:layout_marginTop="304sp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#1D1F72"
+        android:textStyle="italic"
+        />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/prof" />
+
+
+</RelativeLayout>

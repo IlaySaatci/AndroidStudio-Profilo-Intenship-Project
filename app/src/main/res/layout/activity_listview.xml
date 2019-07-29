@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/texting"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:textColor="@color/colorBackground"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="35dp"
+        android:layout_toLeftOf="@id/delete_btn"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/add_btn2"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="35dp"
+        android:layout_toLeftOf="@id/delete_btn"
+        android:text="-"
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"/>
+
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@color/red"
+        android:text="X"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginTop="-5dp"/>
+
+    <TextView
+        android:id="@+id/miktar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-60sp"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+

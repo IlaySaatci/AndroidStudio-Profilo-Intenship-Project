@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/item1"
+    android:icon="@drawable/more"
+    android:title="more"
+    app:showAsAction="ifRoom"
+    >
+
+    <menu>
+        <item
+            android:id="@+id/subitem1"
+            android:title="ürünler" />
+
+        <item
+            android:id="@+id/subitem2"
+            android:title="satış raporu" />
+
+        <item
+            android:id="@+id/subitem3"
+            android:title="Z raporu" />
+
+        <item
+            android:id="@+id/subitem4"
+            android:title="Yardım" />
+
+        <item
+            android:id="@+id/subitem5"
+            android:title="iletişim" />
+
+
+
+    </menu>
+    </item>
+</menu>

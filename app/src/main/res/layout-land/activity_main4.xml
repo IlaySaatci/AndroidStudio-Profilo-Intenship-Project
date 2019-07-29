@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+
+    <Button
+        android:id="@+id/buttonz"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="221dp"
+        android:layout_marginTop="99dp"
+        android:background="@drawable/button_pressed"
+        android:text="Z Raporu al" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="534dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="20dp"
+        android:text="Z Raporu, gün içinde yapılan nakit ve kredili
+satışlar ile bunlara ilişkin kdv dökümlerinin ayrıntılı olarak
+alındığı rapordur." />
+</RelativeLayout>

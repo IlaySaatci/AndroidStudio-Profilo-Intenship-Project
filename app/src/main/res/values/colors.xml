@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#036BB2</color>
+    <color name="colorPrimaryDark">#185BA8  </color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBackground">#ffffff</color>
+    <color name="orange">#ee7c2b</color>
+    <color name="mb">#6A91C3</color>
+    <color name="lightor">#E29443</color>
+    <color name="problu">#0072BC</color>
+    <color name="orangeicon">#FDC647</color>
+    <color name="turkuaz">#43D2E2</color>
+    <color name="pressed">#888888</color>
+    <color name="red">#FF0000</color>
+</resources>
